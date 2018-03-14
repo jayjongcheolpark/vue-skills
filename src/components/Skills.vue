@@ -14,7 +14,12 @@ export default {
   name: 'Skills',
   data() {
     return {
-      skills: [{ skill: 'Vue.js' }, { skill: 'Frontend Developer' }],
+      skills: [
+        { skill: 'Vue.js' },
+        { skill: 'Frontend Developer' },
+        { skill: 'React' },
+        { skill: 'Angular' }
+      ],
       bgColor: 'yellow',
       bgWidth: '100%',
       bgHeight: '30px'
